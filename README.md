@@ -20,25 +20,8 @@ It uses the **Last.fm API** to fetch tracks and is deployed on **Vercel**.
 
 ---
 
-## 🌍 Live Demo
-Try MoodWave:  
+## 🌍 Try MoodWave: 
 
 [![Listen Here](https://img.shields.io/badge/Listen_Here-blue?style=for-the-badge)](https://mood-wave-gray.vercel.app/)
 
----
-
-## 📂 Project Structure
-
-📦 moodwave/         ← GitHub repo root
- ┣ 📂 moodwave/      ← frontend lives here
- ┃ ┣ 📂 node_modules/
- ┃ ┣ 📂 public/
- ┃ ┣ 📂 src/
- ┃ ┣ 📜 package.json  
- ┃ ┗ ...
- ┣ 📂 backend/       ← backend lives here
- ┃ ┣ 📜 index.js
- ┃ ┣ 📜 package.json
- ┃ ┗ ...
- ┗ 📜 README.md
 
