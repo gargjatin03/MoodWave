@@ -10,20 +10,35 @@ It uses the **Last.fm API** to fetch tracks and is deployed on **Vercel**.
 - 🌐 Fast and responsive web interface  
 - ☁️ Deployed on **Vercel**  
 
----
-
-## 🌍 Live Demo
-Click below to try MoodWave:  
-
-[![Listen Here](https://img.shields.io/badge/Listen-Here-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://mood-wave-gray.vercel.app/)  
 
 ---
 
 ## 🛠 Tech Stack
-- **Frontend**: React + Vite  
+- **Frontend**: React + Vite , Axios (for API requests), Tailwind CSS (for styling)
 - **API**: [Last.fm API](https://www.last.fm/api)  
 - **Deployment**: [Vercel](https://mood-wave-gray.vercel.app/)  
 
 ---
 
+## 🌍 Live Demo
+Try MoodWave:  
+
+[![Listen Here](https://img.shields.io/badge/Listen_Here-blue?style=for-the-badge)](https://mood-wave-gray.vercel.app/)
+
+---
+
 ## 📂 Project Structure
+
+📦 moodwave/         ← GitHub repo root
+ ┣ 📂 moodwave/      ← frontend lives here
+ ┃ ┣ 📂 node_modules/
+ ┃ ┣ 📂 public/
+ ┃ ┣ 📂 src/
+ ┃ ┣ 📜 package.json  
+ ┃ ┗ ...
+ ┣ 📂 backend/       ← backend lives here
+ ┃ ┣ 📜 index.js
+ ┃ ┣ 📜 package.json
+ ┃ ┗ ...
+ ┗ 📜 README.md
+
